@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* NFL Brand Identity */
+:root {
+  --color-nfl-blue: #013369;
+  --color-nfl-red: #d50a0a;
+  --color-teal: #007377;
+  --color-navy: #002244;
+  --color-orange: #f26522;
+
+  /* Custom Animations for NFL Presentation */
+  --animate-scanline: scanline 8s linear infinite;
+  --animate-glow: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+@layer base {
+  :root {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.145 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.145 0 0);
+    --primary: oklch(0.205 0 0);
+    --border: oklch(0.922 0 0);
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: oklch(0.1 0 0); /* Ultra dark for sports feel */
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.15 0 0);
+    --border: oklch(0.25 0 0);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Glassmorphism for a "Premium" NFL Look */
+.nfl-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem; /* rounded-xl */
+  border: 1px solid rgba(255,255,255,0.05); /* border-white/5 */
+  background-color: rgba(255,255,255,0.05); /* bg-white/5 */
+  backdrop-filter: blur(12px); /* backdrop-blur-md */
+  transition: all 0.3s;
+}
+.nfl-card:hover {
+  border-color: rgba(0,51,105,0.4); /* hover:border-blue-500/40 */
+  background-color: rgba(255,255,255,0.10); /* hover:bg-white/10 */
+}
+
+.scanline-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.1;
+  animation: var(--animate-scanline);
+  background: linear-gradient(to bottom, transparent, var(--color-nfl-blue), transparent);
+  height: 20%;
+}
