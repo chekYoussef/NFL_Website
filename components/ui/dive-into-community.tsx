@@ -12,7 +12,7 @@ const initiatives = [
     tagline: "GET ACTIVE. GET MOVING.",
     description:
       "Our youth health and wellness platform that empowers youth to get physically active. Encouraging healthy lifestyles and motivating the next generation of youth.",
-    img: "/group_of_kids_running_at_school_recess Frame.png",
+    img: "group_of_kids_running_at_school_recess Frame.png",
     number: "01",
   },
   {
@@ -24,7 +24,7 @@ const initiatives = [
     tagline: "EMPOWERING EVERY KID.",
     description:
       "Enables kids while addressing food and physical activity nutrition and wellness. Addressing nearly 30 million kids eligible for school lunch programs.",
-    img: "/GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
+    img: "GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
     number: "02",
   },
   {
@@ -36,7 +36,7 @@ const initiatives = [
     tagline: "BUILD CHARACTER. BUILD FUTURES.",
     description:
       "Equips students with tools and knowledge to build relationships and protect their mental health. Partnering with every player to empower students to make good choices.",
-    img: "/seahawks-768x512 2.png",
+    img: "seahawks-768x512 2.png",
     number: "03",
   },
   {
@@ -60,7 +60,7 @@ const initiatives = [
     tagline: "PLAY EVERYWHERE.",
     description:
       "Longest-running flag football program in all 50 states. Devoted to developing youth athletes and installing a lifelong passion for flag football.",
-    img: "/NFL-Youth-Honors Frame.png",
+    img: "NFL-Youth-Honors Frame.png",
     number: "05",
   },
   {
@@ -72,7 +72,7 @@ const initiatives = [
     tagline: "INCLUSION FOR ALL.",
     description:
       "Bringing inclusion to athletes with all levels of ability. Giving people with intellectual disabilities the opportunity to play on the same team.",
-    img: "/news1.png",
+    img: "news1.png",
     number: "06",
   },
   {
@@ -84,7 +84,7 @@ const initiatives = [
     tagline: "MENTOR. INSPIRE. GROW.",
     description:
       "Creating conditions for young people to reach their full potential through one-to-one mentorship connecting NFL athletes with youth across the country.",
-    img: "/BigS.png",
+    img: "BigS.png",
     number: "07",
   },
   {
@@ -108,7 +108,7 @@ const initiatives = [
     tagline: "EVERY CHILD. EVERY FUTURE.",
     description:
       "Providing comprehensive programs for underserved young people. Students gain access to activities, programs, and mentorship that fundamentally change their lives.",
-    img: "/boys and girls club Frame.png",
+    img: "boys and girls club Frame.png",
     number: "09",
   },
 ];

@@ -11,38 +11,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logos */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            <div
-              style={{
-                filter: "invert(1) drop-shadow(0 0 6px rgba(0,204,163,0.2))",
-              }}
-            >
+            <div>
               <Image
-                src="/nfl-logo.webp"
+                src="WWW logo caps-03.png"
                 alt="NFL"
-                width={36}
-                height={36}
+                width={150}
+                height={150}
                 style={{ objectFit: "contain", display: "block" }}
               />
-            </div>
-            <div className="flex flex-col leading-none">
-              <div
-                className="font-black text-xl tracking-tight"
-                style={{ fontFamily: "'Anton', 'Impact', sans-serif" }}
-              >
-                <span style={{ color: "#FFD700" }}>W</span>
-                <span style={{ color: "#FF6B35" }}>H</span>
-                <span style={{ color: "#00CCA3" }}>Y</span>
-              </div>
-              <span
-                style={{
-                  color: "rgba(255,255,255,0.4)",
-                  fontSize: 11,
-                  letterSpacing: "0.08em",
-                  fontFamily: "system-ui, sans-serif",
-                }}
-              >
-                Wouldn&apos;t We?
-              </span>
             </div>
           </Link>
 

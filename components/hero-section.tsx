@@ -68,7 +68,7 @@ export function HeroSection() {
         }}
       >
         <Image
-          src="/hero-bg1.png"
+          src="hero-bg1.png"
           alt=""
           fill
           priority
@@ -131,7 +131,7 @@ export function HeroSection() {
         />
 
         <Image
-          src="/hero-players1.png"
+          src="hero-players1.png"
           alt="NFL youth players"
           fill
           priority

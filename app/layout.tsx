@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   generator: "v0.app",
   icons: {
     icon: [
-      { url: "/nfl-logo.webp", media: "(prefers-color-scheme: light)" },
-      { url: "/nfl-logo.webp", media: "(prefers-color-scheme: dark)" },
-      { url: "/nfl-logo.webp", type: "image/svg+xml" },
+      { url: "nfl-logo.webp", media: "(prefers-color-scheme: light)" },
+      { url: "nfl-logo.webp", media: "(prefers-color-scheme: dark)" },
+      { url: "nfl-logo.webp", type: "image/svg+xml" },
     ],
     apple: "/apple-icon.png",
   },

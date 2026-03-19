@@ -51,48 +51,17 @@ export function Navigation() {
             {/* Real NFL logo — white version via CSS invert since source is black */}
             <div
               style={{
-                filter: "invert(1) drop-shadow(0 0 8px rgba(0,204,163,0.25))",
                 transition: "filter 0.3s ease",
               }}
-              onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLDivElement).style.filter =
-                  "invert(1) drop-shadow(0 0 14px rgba(0,204,163,0.55))")
-              }
-              onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLDivElement).style.filter =
-                  "invert(1) drop-shadow(0 0 8px rgba(0,204,163,0.25))")
-              }
             >
               <Image
-                src="/nfl-logo.webp"
+                src="WWW logo caps-01.png"
                 alt="NFL"
-                width={80}
-                height={80}
+                width={100}
+                height={100}
                 style={{ objectFit: "contain", display: "block" }}
                 priority
               />
-            </div>
-
-            {/* WHY wordmark */}
-            <div className="flex flex-col leading-none">
-              <div
-                className="font-black text-xl tracking-tight"
-                style={{ fontFamily: "'Anton', 'Impact', sans-serif" }}
-              >
-                <span style={{ color: "white" }}>W</span>
-                <span style={{ color: "white" }}>H</span>
-                <span style={{ color: "white" }}>Y</span>
-              </div>
-              <span
-                className="text-xs tracking-wider"
-                style={{
-                  color: "rgba(255,255,255,0.45)",
-                  fontFamily: "system-ui, sans-serif",
-                  letterSpacing: "0.08em",
-                }}
-              >
-                Wouldn&apos;t We?
-              </span>
             </div>
           </Link>
 

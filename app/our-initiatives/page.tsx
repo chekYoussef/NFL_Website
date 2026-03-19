@@ -27,18 +27,18 @@ function useReveal(threshold = 0.15) {
 const youthTop = [
   {
     label: "PLAY 60",
-    img: "/group_of_kids_running_at_school_recess Frame.png",
+    img: "group_of_kids_running_at_school_recess Frame.png",
   },
   {
     label: "GEN YOUTH",
-    img: "/GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
+    img: "GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
   },
   { label: "CHARACTER PLAYS", img: "/seahawks-768x512 Frame.png" },
 ];
 const youthBottom = [
   {
     label: "NFL FOUNDATION",
-    img: "/0-0-0-4f290166f62d3c064ca5e5f393066825 Frame.png",
+    img: "0-0-0-4f290166f62d3c064ca5e5f393066825 Frame.png",
   },
   { label: "INSPIRE CHANGE", img: "/gue40keslxajaqtpt86j Frame.png" },
   { label: "LATINO YOUTH HONORS", img: "/NFL-Youth-Honors Frame.png" },
@@ -47,14 +47,14 @@ const youthBottom = [
 
 // ─── Partnerships ─────────────────────────────────────────────────
 const partners = [
-  { label: "SPECIAL OLYMPICS", img: "/news1.png" },
-  { label: "BIG BROTHERS BIG SISTERS", img: "/BigS.png" },
+  { label: "SPECIAL OLYMPICS", img: "news1.png" },
+  { label: "BIG BROTHERS BIG SISTERS", img: "BigS.png" },
   {
     label: "HARLEM GLOBETROTTERS CHILDREN'S ZONE",
-    img: "/Promise-Academy-Middle-School-scholars-graduation-HCZ-Armory-June-2023-1200x801 Frame.png",
+    img: "Promise-Academy-Middle-School-scholars-graduation-HCZ-Armory-June-2023-1200x801 Frame.png",
   },
-  { label: "SMASH", img: "/sz0gfsyd7tlvxjdzlvdq Frame copy.png" },
-  { label: "BOYS AND GIRLS CLUB", img: "/news3.png" },
+  { label: "SMASH", img: "sz0gfsyd7tlvxjdzlvdq Frame copy.png" },
+  { label: "BOYS AND GIRLS CLUB", img: "news3.png" },
 ];
 
 // ─── Reusable reveal wrapper ──────────────────────────────────────
@@ -110,7 +110,7 @@ export default function InitiativesPage() {
               position: "absolute",
               inset: 0,
               zIndex: 0,
-              backgroundImage: `url('/hero-bg.png')`,
+              backgroundImage: `url('hero-bg1.png')`,
               backgroundSize: "cover",
               backgroundPosition: "center top",
               opacity: 0.25, // ← very subtle, not dominant
