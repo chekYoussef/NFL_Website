@@ -19,17 +19,17 @@ const GRID_ITEMS = [
   },
   {
     label: "GEN YOUTH",
-    img: "/GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
+    img: "GENYOUth-What-We-Do-Nutrition-Phsical-Activity-images Frame.png",
     color: "#FFD700",
   },
   {
     label: "CHARACTER PLAYS",
-    img: "/seahawks-768x512 Frame.png",
+    img: "seahawks-768x512 Frame.png",
     color: "#002244",
   },
   {
     label: "NFL FOUNDATION",
-    img: "/0-0-0-4f290166f62d3c064ca5e5f393066825 Frame.png",
+    img: "0-0-0-4f290166f62d3c064ca5e5f393066825 Frame.png",
     color: "#00A878",
   },
   {
@@ -39,10 +39,10 @@ const GRID_ITEMS = [
   },
   {
     label: "LATINO YOUTH",
-    img: "/NFL-Youth-Honors Frame.png",
+    img: "NFL-Youth-Honors Frame.png",
     color: "#FF6B35",
   },
-  { label: "NFL FLAG", img: "/news2.png", color: "#D50A0A" },
+  { label: "NFL FLAG", img: "news2.png", color: "#D50A0A" },
 ];
 
 // ── Easing ─────────────────────────────────────────────────────────
