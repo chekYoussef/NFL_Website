@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 // ── The featured initiative (fullscreen hero shot) ─────────────────
 const FEATURED = {
   label: "NFL FLAG",
-  img: "/GENYOUth-Flag-in-School-Athlete-041824.jpg",
+  img: "GENYOUth-Flag-in-School-Athlete-041824.jpg",
   color: "#D50A0A",
   tagline: "LONGEST-RUNNING YOUTH FOOTBALL PROGRAM",
 };
@@ -14,7 +14,7 @@ const FEATURED = {
 const GRID_ITEMS = [
   {
     label: "PLAY 60",
-    img: "/group_of_kids_running_at_school_recess Frame.png",
+    img: "group_of_kids_running_at_school_recess Frame.png",
     color: "#D50A0A",
   },
   {
@@ -34,7 +34,7 @@ const GRID_ITEMS = [
   },
   {
     label: "INSPIRE CHANGE",
-    img: "/gue40keslxajaqtpt86j Frame.png",
+    img: "gue40keslxajaqtpt86j Frame.png",
     color: "#FFD700",
   },
   {
